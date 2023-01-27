@@ -1,0 +1,69 @@
+@media only screen and (max-width: 801px) {
+    * {
+        max-width: 801px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .cadre {
+        width: 85%;
+    }
+
+    .BPizza {
+        width: 220px;
+    }
+
+    button.btn {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    * {
+        max-width: 480px;
+        flex-wrap: wrap;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    ul.navimg {
+        width: 30%;
+    }
+
+    .navimg img {
+        width: 80%;
+
+    }
+
+    ul.navitem {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: flex-end;
+        gap: 5%;
+        font-size: 13px;
+    }
+
+    .FPizza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .BPizza {
+        width: 220px;
+    }
+
+    button.btn {
+        float: right;
+        width: 60%;
+    }
+
+}

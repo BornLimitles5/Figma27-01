@@ -1,0 +1,118 @@
+*{
+    font-family: 'Lato', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+}
+.bgimg {
+    min-height: 619px;
+    background-image: url(/img/2.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48%;
+    text-align: center;
+}
+.t1 p {
+    color: white;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.t1 h1 {
+    color: white;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+ul.navimg {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+ul.navitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+ul.navitem a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.navitema:active{
+    color: orange;
+}
+#Home{
+    color: orange;
+}
+
+
+main {
+    margin-left: 5%;
+    margin-right: 46%;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 43%;
+    text-align: start;
+    padding-bottom: 50px;
+}
+.box input {
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+}
+.box div {
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 15px;
+    color: white;
+    font-size: 19px;
+}
+select#Objet {
+    width: 100%;
+    height: 27px;
+    color: gray;
+}
+
+textarea {
+    width: 100%;
+}
+
+.message {
+    padding: 20px 0px 20px 0px;
+}
+.btn {
+    margin-top: 51px;
+    text-align: end;
+}

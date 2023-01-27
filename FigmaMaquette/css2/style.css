@@ -1,0 +1,293 @@
+.bgimg {
+    min-height: 619px;
+    background-image: url(/img/2.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48%;
+    text-align: center;
+}
+.t1 p {
+    color: white;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.t1 h1 {
+    color: white;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+ul.navimg {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+ul.navitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+ul.navitem a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.navitema:active{
+    color: orange;
+}
+#Home{
+    color: orange;
+}
+
+
+main{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.NP {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30%;
+    margin-bottom: 20px;
+}
+.nom {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+hr {
+    height: 1px;
+    background-color: gray;
+    margin-left: 60px;
+    margin-right: 415px;
+    border-radius: 15px;
+}
+.SP{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9%;
+    margin-bottom: 20px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28%;
+}
+.Orange {
+    color: #FA4A0C;
+    font-size: 25px;
+    font-weight: 800;
+}
+select#Ingrédient {
+    height: 33px;
+    width: 200px;
+    border-radius: 5px ;
+}
+.ing input , .nom input , .inn input {
+    height: 33px;
+    width: 200px;
+    border-radius: 5px ;
+}
+.ing {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+
+    border-radius: 15px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkbox-green {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-green:checked {
+    background-color: green;
+}
+
+/* .tittre {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 31%;
+}
+
+.Boi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13%;
+}
+
+.Boi:first-child{
+    display: flex;
+    justify-content: flex-start;
+    gap: 152px;
+}
+.Boi:last-child{
+    display: flex;
+    justify-content: flex-start;
+        gap: 165px; 
+}  */
+
+.Titres {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40%;
+}
+
+.coti {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.Box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 14%;
+}
+.coti p {
+    width: 93px;
+}
+.inn {
+    text-align: end;
+}
+.inn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+.inn div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.livre {
+    gap: 38%;
+}
+
+.buton {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 22%;
+}
+button {
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,9 @@
+main .insight {
+    grid-template-columns: unset;
+    gap: 1.6rem;
+    text-align: center;
+}
+
+#ico{
+    background: yellowgreen;
+}

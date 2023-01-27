@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Positionnement  */
+body {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+header{
+    grid-area: header;
+    background-color: white;
+    min-height: 100px;
+}
+
+main {
+    grid-area: main;
+    background-color: white;
+    min-height: 100px;
+}
+footer {
+    grid-area: footer;
+    min-height: 100px;
+}
+
+/* FlexBox Header */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+ul.navimg {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+ul.navitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+ul.navitem a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.navitema:active{
+    color: orange;
+}
+#Home{
+    color: orange;
+}
+
+
+/* Header BackgroundImage */
+.bgimg {
+    min-height: 619px;
+    background-image: url(/img/2.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48%;
+    text-align: center;
+}
+.t1 p {
+    color: white;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.t1 h1 {
+    color: white;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+}
+.FPizza {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 42px;
+}
+.BPizza {
+    border: solid orange;
+
+}
+.IPizza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.IPizza img{
+    width: 80%;
+    box-shadow: 4px 0 5px #0000004a;
+}
+.TPizza {
+    text-align: start;
+    margin-left: 39px;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.PPizza {
+    text-align: start;
+    margin-left: 39px;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    background-color: #fa4a0c;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none; 
+    width: 177px;
+    height: 68px;
+    margin: 20px;
+    border: none;
+}
+.btn:hover {
+	background-color:#452013;
+    transition: all 1s ease;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+button.btn {
+    float: right;
+}
+.sepa {
+    min-height: 50px;
+    border-top: solid gray 2px;
+    margin: 50px 500px 50px 500px;
+}
+.Solved{
+    margin-left: 9%;
+    margin-right: 35%;
+    margin-top: 100px;
+    margin-bottom:  200px;
+}
+
+.BFooter {
+    background-image: url(/img/Rectangle47.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+main{
+    padding-top: 4a0px;
+}
+
+
+.FP {
+    font-size: xxx-large;
+    font-family: 'Montserrat';
+}
+.Social ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
+    background-color: white;
+}
+.Social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 200px;
+}
